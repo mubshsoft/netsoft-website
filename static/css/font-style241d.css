@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('../font/icomoonab4b.eot?ruknv9');
+  src:  url('../font/icomoonab4b.eot?ruknv9#iefix') format('embedded-opentype'),
+    url('../font/icomoonab4b.ttf?ruknv9') format('truetype'),
+    url('../font/icomoonab4b.woff?ruknv9') format('woff'),
+    url('../font/icomoonab4b.svg?ruknv9#icomoon') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow_Right:before {
+  content: "\e901";
+}
+.icon-Close:before {
+  content: "\e902";
+}
+.icon-Downloads .path1:before {
+  content: "\e903";
+  opacity: 0.3;
+}
+.icon-Downloads .path2:before {
+  content: "\e904";
+  margin-left: -1.5em;
+}
+.icon-Favorites_Notselected:before {
+  content: "\e905";
+}
+.icon-Favorites:before {
+  content: "\e906";
+}
+.icon-picture:before {
+  content: "\e907";
+}
+.icon-Results_List_notselected:before {
+  content: "\e908";
+}
+.icon-Results_List .path1:before {
+  content: "\e909";
+}
+.icon-Results_List .path2:before {
+  content: "\e90a";
+  margin-left: -1.2666015625em;
+  opacity: 0.3;
+}
+.icon-Search_Icon .path1:before {
+  content: "\e90b";
+  opacity: 0.3;
+}
+.icon-Search_Icon .path2:before {
+  content: "\e90c";
+  margin-left: -0.94140625em;
+}
+.icon-Search_Illustration .path1:before {
+  content: "\e90d";
+}
+.icon-Search_Illustration .path2:before {
+  content: "\e90e";
+  margin-left: -1.0478515625em;
+  opacity: 0.4253;
+}
+.icon-Search_Illustration .path3:before {
+  content: "\e90f";
+  margin-left: -1.0478515625em;
+  opacity: 0.4253;
+}
+.icon-Search_Illustration .path4:before {
+  content: "\e910";
+  margin-left: -1.0478515625em;
+  opacity: 0.4253;
+}
+.icon-Search_Illustration .path5:before {
+  content: "\e911";
+  margin-left: -1.0478515625em;
+}
+.icon-Search_Illustration .path6:before {
+  content: "\e912";
+  margin-left: -1.0478515625em;
+  opacity: 0.4253;
+}
+.icon-Search_Illustration .path7:before {
+  content: "\e913";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path8:before {
+  content: "\e914";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path9:before {
+  content: "\e915";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path10:before {
+  content: "\e916";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path11:before {
+  content: "\e917";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path12:before {
+  content: "\e918";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Search_Illustration .path13:before {
+  content: "\e919";
+  margin-left: -1.0478515625em;
+  opacity: 0.266;
+}
+.icon-Share .path1:before {
+  content: "\e91a";
+  opacity: 0.3;
+}
+.icon-Share .path2:before {
+  content: "\e91b";
+  margin-left: -1.125em;
+}
+.icon-texts:before {
+  content: "\e91c";
+}
+.icon-videos:before {
+  content: "\e91d";
+}
+.icon-Submissions .path1:before {
+  color: rgb(255, 255, 255);
+  content: "\e952";
+  opacity: 0.3;
+}
+.icon-Submissions .path2:before {
+  color: rgb(255, 255, 255);
+  content: "\e953";
+  margin-left: -1em;
+}
+.icon-Participants .path1:before {
+  color: rgb(255, 255, 255);
+  content: "\e94e";
+  opacity: 0.3;
+}
+.icon-Participants .path2:before {
+  color: rgb(255, 255, 255);
+  content: "\e94f";
+  margin-left: -1em;
+}
+.icon-Participate .path1:before {
+  color: rgb(255, 255, 255);
+  content: "\e950";
+}
+.icon-Participate .path2:before {
+  color: rgb(255, 255, 255);
+  content: "\e951";
+  margin-left: -1em;
+  opacity: 0.3;
+}
+.icon-Due_Date .path1:before {
+  color: rgb(255, 255, 255);
+  content: "\e94c";
+  opacity: 0.3;
+}
+.icon-Due_Date .path2:before {
+  color: rgb(255, 255, 255);
+  content: "\e94d";
+  margin-left: -1em;
+}
+.icon-stPlace .path1:before {
+  color: rgb(255, 75, 110);
+  content: "\e91e";
+}
+.icon-stPlace .path2:before {
+  color: rgb(205, 40, 85);
+  content: "\e91f";
+  margin-left: -1em;
+}
+.icon-stPlace .path3:before {
+  color: rgb(95, 50, 115);
+  content: "\e920";
+  margin-left: -1em;
+}
+.icon-stPlace .path4:before {
+  color: rgb(115, 60, 130);
+  content: "\e921";
+  margin-left: -1em;
+}
+.icon-stPlace .path5:before {
+  color: rgb(242, 194, 48);
+  content: "\e922";
+  margin-left: -1em;
+}
+.icon-stPlace .path6:before {
+  color: rgb(235, 180, 16);
+  content: "\e923";
+  margin-left: -1em;
+}
+.icon-stPlace .path7:before {
+  color: rgb(255, 255, 145);
+  content: "\e924";
+  margin-left: -1em;
+}
+.icon-stPlace .path8:before {
+  color: rgb(199, 139, 0);
+  content: "\e925";
+  margin-left: -1em;
+}
+.icon-stPlace .path9:before {
+  color: rgb(255, 255, 145);
+  content: "\e926";
+  margin-left: -1em;
+}
+.icon-stPlace .path10:before {
+  color: rgb(255, 225, 60);
+  content: "\e927";
+  margin-left: -1em;
+}
+.icon-Dataset .path1:before {
+  color: rgb(111, 56, 159);
+  content: "\e93d";
+}
+.icon-Dataset .path2:before {
+  color: rgb(111, 56, 159);
+  content: "\e93e";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path3:before {
+  color: rgb(111, 56, 159);
+  content: "\e93f";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path4:before {
+  color: rgb(111, 56, 159);
+  content: "\e940";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path5:before {
+  color: rgb(111, 56, 159);
+  content: "\e941";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path6:before {
+  color: rgb(111, 56, 159);
+  content: "\e942";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path7:before {
+  color: rgb(111, 56, 159);
+  content: "\e943";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path8:before {
+  color: rgb(111, 56, 159);
+  content: "\e944";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path9:before {
+  color: rgb(111, 56, 159);
+  content: "\e945";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path10:before {
+  color: rgb(111, 56, 159);
+  content: "\e946";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path11:before {
+  color: rgb(111, 56, 159);
+  content: "\e947";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path12:before {
+  color: rgb(111, 56, 159);
+  content: "\e948";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path13:before {
+  color: rgb(111, 56, 159);
+  content: "\e949";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path14:before {
+  color: rgb(111, 56, 159);
+  content: "\e94a";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Dataset .path15:before {
+  color: rgb(111, 56, 159);
+  content: "\e94b";
+  margin-left: -1em;
+  opacity: 0.3011;
+}
+.icon-Arrow_Down:before {
+  color: var(--primary-color);;
+  content: "\e900";
+}
+.icon-Thanks .path1:before {
+  color: rgb(111, 56, 159);
+  content: "\e954";
+  opacity: 0.0600;
+}
+.icon-Thanks .path2:before {
+  color: rgb(111, 56, 159);
+  content: "\e955";
+  margin-left: -1em;
+}
+.icon-Thanks .path3:before {
+  color: rgb(111, 56, 159);
+  content: "\e956";
+  margin-left: -1em;
+}
+.icon-Thanks .path4:before {
+  color: rgb(111, 56, 159);
+  content: "\e957";
+  margin-left: -1em;
+  opacity: 0.12;
+}

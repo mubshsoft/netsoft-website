@@ -1,0 +1,585 @@
+.section-new-frontier{
+    background-attachment: fixed;
+    background-color: #F5F5FF;
+    background-image: url(../img/bitgrit-token/top_robot_img.svg);
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    text-align: center;
+    z-index: -1;
+}
+.section-bkg-img{
+    background-attachment: fixed;
+    background-color: #F5F5FF;
+    background-image: url(../img/bitgrit-token/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    z-index: 2;
+}
+.section-bkg{
+    background-color: #F5F5FF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
+.background-text{
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 15%;
+    width: 1920px;
+    z-index:  1;
+}
+.cloud-img-setting{
+    padding-top: 131px;
+    position: relative;
+    z-index: 2;
+}
+.small-heading-padding{
+    padding-top: 85px;
+}
+.big-heading-padding{
+    padding-top: 20px;
+}
+.token-section-break{
+    height: 200px;
+}
+.section-introducing-bgr{
+    background: linear-gradient(
+        180deg,
+        #F5F5FF 67.04%,
+        rgba(245, 245, 255, 0) 100%
+    );
+    padding-bottom: 125px;
+    padding-top: 0;
+}
+.section-utility{
+    margin-bottom: 135px;
+}
+.section-the-benefits{
+    margin-bottom: 110px;
+}
+.section-obtaining-bgr{
+    margin-bottom: 115px;
+}
+.section-smart-contract{
+    padding-bottom: 125px;
+}
+.section-token-metrics{
+    background: var(--primary-color);;
+}
+.section-token-distribution-chart{
+    background-color: white;
+    padding-top: 120px;
+    position: relative;
+    z-index: 2;
+}
+.section-token-distribution-chart table{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 118px;
+    margin-left: 18px;
+    width:100%;
+}
+.section-token-distribution-chart table td{
+    padding: 10px 0;
+}
+.container-1920{
+    margin: auto;
+    max-width: 1920px;
+}
+.token-metrics-box{
+    background-color: var(--primary-color);;
+    margin: auto;
+    max-width: 1920px;    
+}
+.obtaining-bgr-img-box{
+    height: auto;
+    width: 92%;
+}
+.section-token-release-plan{
+    background-color: white;
+    padding-bottom: 85px;
+    position: relative;
+    z-index: 2;
+}
+.section-whitepaper-github{
+    background-color: white;
+    padding-bottom: 110px;
+    position: relative;
+    z-index: 2;
+}
+.section-partners{
+    background-color: white;
+    padding-bottom: 110px;
+    position: relative;
+    z-index: 2;
+}
+.section-new-frontier,
+.section-introducing-bgr,
+.section-utility,
+.section-the-benefits,
+.section-obtaining-bgr,
+.section-smart-contract,
+.section-token-metrics,
+.section-token-distribution-chart,
+.section-token-release-plan,
+.section-whitepaper-github,
+.section-partners{
+    font-size: 18px;
+}
+.column-content-container{
+    margin: auto;
+    vertical-align: middle;
+}
+
+.container .row .col-md-6{
+    margin: auto;
+    vertical-align: middle;
+}
+.tdc-table-font-size{
+    font-size: 18px;
+    font-weight: 400;
+}
+.tdc-table-heading-text{
+    color: var(--primary-color);;
+    font-size: 20px;
+    font-weight: 500;
+}
+.tdc-cell-padding{
+    padding-top: 10px;
+}
+.trp-table-padding{
+    padding: 43px 0 0 0;
+}
+.trp-table-row-padding{
+    padding-bottom: 10px;
+}
+.trp-table-font-size{
+    font-size: 14px;
+    font-weight: 400;
+}
+.trp-table-heading{
+    color: var(--primary-color);;
+    font-size: 14px;
+    font-weight: 500;
+}
+.trp-chart-axis-labels{
+    font-size: 14px;
+    font-weight: 500;
+}
+.trp-table-heading-text{
+    color: var(--primary-color);;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 55px;
+    text-align: right;
+}
+.trp-chart-padding{
+    padding: 80px 5px 0 0;
+}
+.width-8{
+    width: 8%;
+}
+.width-48{
+    width: 48%;
+}
+.trp-table-img-cell-padding{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.padding-right-15{
+    padding-right: 15px;
+}
+.padding-right-30{
+    padding-right: 30px;
+}
+.padding-top-27{
+    padding-top: 27px;
+}
+.padding-top-100{
+    padding-top: 100px;
+}
+.padding-bottom-200{
+    padding-bottom: 200px;
+}
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+.margin-left-100{
+    margin-left: 100px;
+}
+.pie-tooltip{
+    background: inherit;
+    color: var(--primary-color);;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+}
+.token-metrics-card{
+    display: inline-block;
+    margin: 25px 70px 52px 0;
+}
+.token-metrics-title{
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 26px;
+}
+.token-metrics-heading-text{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.token-metrics-value-text{
+    font-size: 24px;
+    font-weight: 500;
+}
+.margin-auto{
+    margin: auto;
+}
+.token-section-content{
+    color: #504B54;
+}
+.introducing-bgr-img-container{
+    display: inline-block;
+    text-align: right;
+}
+.utility-img-container{
+    display: inline-block;
+    text-align: left;
+}
+.benefits-img-container{
+    display: inline-block;
+    text-align: right;
+}
+.obtaining-bgr-img-container{
+    display: inline-block;
+    text-align: left;
+}
+.smart-contract-img-container{
+    display: inline-block;
+    text-align: right;
+}
+.metrics-container{
+    background: var(--primary-color);;
+    border-radius: 7px;
+    color: #ffffff;
+}
+.robot-img-box{
+    display: inline-block;
+}
+.token-big-heading{
+    color: var(--primary-color);;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+}
+.token-section-header{
+    color: var(--primary-color);;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.token-metrics-header{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.padding-top-32{
+    padding-top: 32px;
+}
+.section-about-header{
+    background-color: #F5F5FF;
+    padding-top:270px;
+}
+.small-heading-purple{
+    border-bottom: solid 3px var(--primary-color);;
+    color: var(--primary-color);;
+    font-size: 20px;
+    text-align: center;
+    top: 175px;
+}
+.clouds{
+    background: linear-gradient(
+        180deg,
+        #F5F5FF 67.04%,
+        rgba(245, 245, 255, 0) 100%
+    );
+    opacity: 0.9;
+    position: absolute;
+    top: 146px;
+    width: 100%;
+    z-index: 2;
+}
+.section-para{
+    color: #504B54;
+}
+.tdc-container{
+    padding-left: 0;
+    padding-top: 40px;
+}
+.highcharts-figure{
+    width: 100%;
+}
+.section-button {
+    padding: 8px 50px;
+}
+.href-color{
+    color: var(--primary-color);;
+}
+.href-color:hover{
+    color: var(--primary-color);;
+    text-decoration: underline;
+}
+.center-align{
+    text-align: center;
+}
+.footer-section-margin .footer-section{
+    margin-top: 0;
+}
+
+@media (max-width:2560px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 15%;
+        width: 1920px;
+        z-index:  1;
+    }
+}
+@media (max-width:1920px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 15%;
+        width: 100%;
+        z-index:  1;
+    }
+    .img-width-100{
+        width: 100%;
+    }
+}
+@media (max-width:1440px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .img-width-100{
+        width: 100%;
+    }
+}
+@media (max-width:1024px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .tdc-container{
+        padding-left: 25px;
+        padding-top: 195px;
+    }
+}
+@media (max-width:850px){
+    .tdc-container{
+        padding-left: 40px;
+        padding-top: 185px;
+    }
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 70px;
+    }
+}
+@media (max-width:768px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 90px;
+    }
+    .token-section-content{
+        max-width: 437px;
+    }
+    .section-token-distribution-chart table{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 150px;
+        margin-left: 27px;
+        width:100%;
+    }
+    .section-token-distribution-chart table td{
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .tdc-container{
+        padding-left: 50px;
+        padding-top: 130px;
+    }
+    .trp-table-heading-text{
+        color: var(--primary-color);;
+        font-size: 12px;
+        font-weight: 500;
+        padding-right: 0;
+        text-align: right;
+    }
+    .trp-table-padding{
+        padding: 43px 0 0 0;
+    }
+    .obtaining-bgr-img-container{
+        padding-top: 150px;
+    }
+}
+@media (max-width: 740px){
+    .token-big-heading{
+        font-size: 70px;
+    }
+}
+@media (max-width: 653px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 50px;
+    }
+}
+@media (max-width: 540px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 65px;
+    }
+    .tdc-container{
+        padding-left: 25px;
+        padding-top: 0;
+    }
+    .trp-table-padding{
+        padding: 43px 0 0 200px;
+    }
+    .trp-table-heading-text{
+        color: var(--primary-color);;
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 204px;
+        text-align: right;
+    }
+}
+@media (max-width: 480px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 57px;
+    }
+    .token-section-header{
+        padding: 0 0 0 15px;
+    }
+    .token-section-content{
+        max-width: 437px;
+        padding: 0 0 0 15px;
+    }
+    .section-token-distribution-chart table{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-left: 27px;
+        width:100%;
+    }
+    .section-token-distribution-chart table td{
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .tdc-container{
+        padding-left: 30px;
+        padding-top: 0;
+    }
+    .trp-table-heading-text{
+        color: var(--primary-color);;
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 104px;
+        text-align: right;
+    }
+    .trp-table-padding{
+        padding: 43px 0 0 80px;
+    }
+}
+@media (max-width: 425px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 50px;
+    }
+}
+@media (max-width: 375px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 40px;
+    }
+    .partner-logo-img{
+        width: 100%;
+    }
+}
+@media (max-width: 280px){
+    .background-text{
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 5%;
+        width: 100%;
+        z-index:  1;
+    }
+    .token-big-heading{
+        font-size: 33px;
+    }
+    .token-section-header{
+        font-size: 35px;
+    }
+    .cloud-img-setting{
+        padding-top: 60px;
+    }
+}
+.btn-register{
+    box-shadow: none;
+}

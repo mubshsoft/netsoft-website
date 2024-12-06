@@ -1,0 +1,34 @@
+.dataset-nda-modal-dimensions{
+    border-radius: 12px;
+    width: 727px;
+}
+.dataset-nda-modal-body{
+    padding:20px 50px 30px 50px;
+}
+.dataset-nda-modal-title{
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.05px;
+    line-height: normal;
+}
+.dataset-nda-modal-subtitle{
+    color: #b2bbc6;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -0.03px;
+    line-height: normal;
+}
+.dataset-modal-btn{
+    font-size: 12px;
+    letter-spacing: -0.06px;
+    padding: 10px 30px;
+}
+.dataset_nda_content{
+    background: #fff;
+    margin-bottom: 30px;
+    max-height: 366px;
+    overflow: auto;
+}

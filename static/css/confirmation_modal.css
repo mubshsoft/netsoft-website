@@ -1,0 +1,119 @@
+.modal-close-btn{
+    float: right;
+    margin: 20px 0 0 0;
+    width: 18px;
+}
+.confirmation-modal-dimensions{
+    border-radius: 14px;
+    margin: 0 auto;
+    width: 550px;
+}
+.confirmation-modal-body{
+    overflow: auto;
+    padding: 5px 25px 10px 25px;
+}
+.modal-center{
+    left: 5%;
+}
+.top-row-padding{
+    padding: 7px 0 22px 0;
+}
+.close-btn-dimensions{
+    width: 20px;
+}
+.close-btn{
+    float: right;
+}
+.close-modal-text-btn{
+    cursor: pointer;
+    padding-top: 0;
+}
+.confirmation-modal-submit-btn{
+    background-color: red;
+    font-size: 16px;
+}
+.content-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.line-padding{
+    padding: 15px 130px 15px 130px;
+}
+.modal-grey-text{
+    color: #8C94A5;
+    font-size: 16px;
+    letter-spacing: -0.03px;
+    text-decoration: none; 
+ }
+.modal-title-text{
+    font-size: 36px;
+    line-height: normal;
+}
+.name-input-box-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.confirmation-modal-floating-label-group{
+    position: relative;
+    width: 100%;
+}
+.confirmation-modal-floating-label{
+    color: #b2bbc6;
+    font-size: 12px;
+    left: 25px;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    transition: all 0.1s ease;
+}
+input:focus ~ .confirmation-modal-floating-label,
+input:not(:focus):valid ~ .confirmation-modal-floating-label {
+    bottom: 0;
+    color: #b2bbc6;
+    font-size: 12px;
+    left: 25px;
+    opacity: 1;
+    top: 5px;
+}
+.name-text{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.error-text{
+    color: red;
+    font-size: 12px;
+}
+.delete-modal-title-text{
+    color: #6F389F;
+    margin: 5px 0 5px 0;
+    white-space: pre-wrap;
+}
+.linked-competion-li{
+    list-style-type: none;
+    padding: 0;
+}
+.box .dataset-link-box-padding{
+    padding: 15px 14px 15px 14px;
+}
+.linked-competitions-section-div{
+    max-height: 300px;
+    overflow: auto;
+}
+.dataset-link-comp-subtitile{
+    color: #919faf;
+    font-size: 14px;
+}
+.dataset-link-comp-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.unlink-btn-padding{
+    padding: 8px;
+}
+.list-line-margin{
+    margin: 0;
+}
+.unlink-btn-alignment{
+    align-items: center;
+    display: flex;
+}

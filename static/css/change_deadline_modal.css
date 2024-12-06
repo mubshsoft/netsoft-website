@@ -1,0 +1,121 @@
+.modal-close-btn{
+    float: right;
+    margin: 20px 0 0 0;
+    width: 18px;
+}
+.change-deadline-modal-dimensions{
+    border-radius: 14px;
+    width: 462px;
+}
+.change-deadline-modal-body{
+    max-height: 600px;
+    overflow: auto;
+    padding:20px 30px 20px 30px;
+}
+.top-row-padding{
+    padding: 7px 0 22px 0;
+}
+.close-btn-dimensions{
+    width: 20px;
+}
+.close-btn{
+    float: right;
+}
+.email-box-margin{
+    margin-bottom: 5px;
+}
+.icons-align{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+.select-box-style{
+    background-color: white;
+    border: 1px solid;
+    border-color: #e4e8eb;
+    border-radius: 5px;
+}
+.select-box-dimensions{    
+    height: 56px;
+    width: 100%;    
+}
+.deadline-input-box-text{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.input-box-padding{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.select-box-padding{
+    margin-bottom: 10px;
+}
+.deadline-grey-text{
+    color: #b2bbc6;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none; 
+ }
+.floating-label-group {
+    position: relative;
+    width: 100%;
+}
+.floating-label {
+    color: #b2bbc6;
+    font-size: 12px;
+    left: 23px;
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    transition: all 0.1s ease;
+}
+.input-floating-label {
+    color: #b2bbc6;
+    font-size: 12px;
+    left: 23px;
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    transition: all 0.1s ease;
+}
+input:focus{
+    border-color: #e4e8eb;
+    outline: none;
+}
+select:focus{
+    border-color: #e4e8eb;
+    outline: none;
+}
+.close-modal-text-btn{
+    cursor: pointer;
+    padding-top: 10px;
+}
+.modal-heading-padding{
+    padding-bottom: 7px;
+}
+.deadline-date-padding{
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+.change-deadline-btn-style{
+    border: 1px solid #EC0924;
+    border-radius: 6px;
+    color: #EC0924;
+    font-size: 15px;
+    letter-spacing: -0.04px;
+    opacity: 0.8;
+    text-align: center;
+}
+.change-deadline-btn-placement{
+    padding: 17px 0 5px 0;
+    text-align: center;
+}
+.error-text{
+    color: red;
+    font-size: 12px;
+}
+.competition-title-text{
+    line-height: 34px;
+}

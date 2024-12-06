@@ -1,0 +1,90 @@
+.modal-close-btn{
+    float: right;
+    margin: 20px 0 0 0;
+    width: 18px;
+}
+.login-btn-register{
+    padding: 12px 44px;
+}
+.login-modal-dimensions{
+    border-radius: 12px;
+    width: 370px;
+}
+.login-modal-body{
+    /*max-height: 600px;*/
+    height: auto;
+    overflow: auto;
+    padding:20px 30px 20px 30px;
+}
+.grey-text a{
+    color: #6d2aa7;
+}
+.modal-center{
+    left: 5%;
+}
+.top-row-padding{
+    padding: 7px 0 22px 0;
+}
+.close-btn-dimensions{
+    width: 20px;
+}
+.close-btn{
+    float: right;
+}
+.email-box-margin{
+    margin-bottom: 5px;
+}
+.icons-align-lm{
+    position: relative;
+    top: 40px;
+}
+.input-box-text{
+    padding: 22px 4px 14px 40px;
+}
+.grey-text{
+    color: #b2bbc6;
+    font-size: 15px;
+    text-decoration: none; 
+ }
+.floating-label-group-lm {
+    position: relative;
+    width: 100%;
+}
+.floating-label-lm {
+    color: #b2bbc6;
+    left: 40px;
+    pointer-events: none;
+    position: absolute;
+    top: 41px;
+    transition: all 0.1s ease;
+}
+input:focus ~ .floating-label-lm,
+input:not(:focus):valid ~ .floating-label-lm {
+    bottom: 0;
+    color: #b2bbc6;
+    font-size: 12px;
+    left: 40px;
+    opacity: 1;
+    top: 30px;
+}
+.get-started {
+    color: black;
+    font-family: 'GT Walsheim Pro', 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    margin:0;
+    padding: 0 0 10px 0;
+}
+.login-modal-captch-error{
+    background-position: 8px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.modal-stay-logged-in{
+    margin-bottom: 35px;
+    margin-top: 15px;
+}

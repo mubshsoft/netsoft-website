@@ -1,0 +1,28 @@
+.alert-danger{
+    background: none;
+    border: none;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+}
+.g-recaptcha-outer{
+    text-align: center;
+}
+.g-recaptcha-inner{
+    margin: auto;
+    transform: scale(0.98);
+    transform-origin: 0 0;
+    width: 304px;
+}
+.g-recaptcha{
+    left: -2px;
+    position:relative;
+    top: -1px;
+}
+@media (max-width: 320px){
+    .g-recaptcha-inner{
+        transform: scale(0.75);
+    }
+}
