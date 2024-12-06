@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Netsoft | Home </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="static/img/favicon1.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>      
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Overpass:200,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/variables.css" rel="stylesheet">
+    <link href="static/css/fonts241d.css" rel="stylesheet">
+    <link href="static/css/landing_page9e92.css" rel="stylesheet">
+    <link href="static/css/captcha9e92.css" rel="stylesheet">
+    <link href="static/css/about9595.css" rel="stylesheet">
+    <link href="static/css/form-style.css" rel="stylesheet">
+    <link href="static/css/footer9595.css" rel="stylesheet">
+    
+
+    <style>
+        .slider {
+     position: relative;
+}
+ #slider {
+     position: relative;
+     overflow: hidden;
+     width: 100% !important;
+}
+ #slider ul {
+     position: relative;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     width: 99999px;
+     overflow: hidden;
+     list-style: none;
+}
+ #slider ul li {
+     position: relative;
+     display: block;
+     float: left;
+     margin: 0;
+     padding: 0;
+     width: 100vw;
+     height: 100vh;
+     text-align: center;
+}
+ #slider ul li .slide {
+     background-size: cover;
+     height: 100vh;
+}
+  #slider ul li {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .7;
+  }
+
+    #slider-1 {
+    
+    background-image: url('static/img/slide/1.jpg');
+    }
+    #slider-2 {
+    background-image: url('static/img/slide/2.jpg');
+    }
+    #slider-3 {
+    background-image: url('static/img/slide/3.jpg');
+    }
+    #slider-4 {
+    background-image: url('static/img/slide/5.jpg');
+    }
+    #slider-5 {
+    background-image: url('static/img/slide/6.jpg');
+    }
+    #slider-6 {
+    background-image: url('static/img/slide/7.jpg');
+    }
+    #slider-7 {
+    background-image: url('static/img/slide/8.jpg');
+    }
+    #slider-8 {
+    background-image: url('static/img/slide/8.jpg');
+    }
+    #slider-9 {
+    background-image: url('static/img/slide/9.jpg');
+    }
+    #slider-10 {
+    background-image: url('static/img/slide/10.jpg');
+    }
+ button.control_prev, button.control_next {
+     position: absolute;
+     top: 50%;
+     z-index: 10;
+     display: block;
+     border: none;
+     width: 2em;
+     height: 2em;
+     line-height: 1.9em;
+     background: rgba(255, 255, 255, 0.3);
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 2rem;
+     opacity: 0.8;
+     cursor: pointer;
+     border-radius: 50%;
+     transform: translateY(-50%);
+     display: none;
+}
+}
+ button.control_prev:focus, button.control_next:focus {
+     outline: none;
+     border: 1px rgba(255, 255, 255, 0.5) solid;
+}
+ button.control_prev:hover, button.control_next:hover {
+     opacity: 1;
+     -webkit-transition: all 0.2s ease;
+}
+ button.control_prev {
+     left: 2rem;
+}
+ button.control_next {
+     right: 2rem;
+}
+ .progress {
+     position: absolute;
+     background: rgba(255, 255, 255, 0.3);
+     height: 0.5rem;
+     width: 100%;
+     bottom: 0;
+     border-top: 1px rgba(0, 0, 0, 0.15) solid;
+}
+ .progress .bar {
+     height: 100%;
+     width: 0%;
+     background: #fff;
+}
+ .teaser {
+     position: absolute;
+     top: 50%;
+     text-align: center;
+     width: 100%;
+     color: #fff;
+     transform: translateY(-50%);
+}
+ .teaser h2 {
+     font-size: 3em;
+     text-transform: uppercase;
+     line-height: 1.5em;
+     color: #fff;
+}
+ .teaser p {
+     font-size: 1.3em;
+     line-height: 1.3em;
+     border-top: 2px #fff solid;
+     width: 33%;
+     min-width: 25rem;
+     margin: 0rem auto;
+     padding: 1.5rem 0;
+}
+ .teaser h3 {
+     border-bottom: 2px #fff solid;
+     width: 33%;
+     padding: 1.5rem 0;
+     margin: 0rem auto;
+     min-width: 25rem;
+}
+ .teaser a {
+     margin-left: 0.5rem;
+     margin-right: 0.5rem;
+}
+ 
+    </style>
+</head>
+
+<body id="page-top">
+<div class="main-container">
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container" id="navigation"> 
+        <a class="navbar-brand js-scroll-trigger" href="index.html">
+            <img src="static/img/netsoft_logo.jpg" class="netsoft-logo" alt="NetSoft-logo"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <rect class="line1" x="0" y="1" rx="2" ry="2" width="26px" height="4px" />
+                    <rect class="line2" x="0" y="11" rx="2" ry="2" width="26px" height="4px" />
+                    <rect class="line3" x="0" y="21" rx="2" ry="2" width="26px" height="4px" />
+                </g>
+            </svg>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="infrastructureManagement.html">Infrastructure Management</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="ITConsulting.html">IT Consulting</a>
+                                
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="artificialIntelligence.html">Artificial Intelligence</a>
+                                <div class="dropdown-divider"></div>
+                                
+                            </div>
+                 </li>
+
+                 <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="unifiedCommunications.html">Unified Communications</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="networking.html">Networking</a>
+                                <div class="dropdown-divider"></div>
+                                
+                                <a class="dropdown-item" href="dataCenter&Virtualization.html">Data Center & Virtualization</a>
+                                <div class="dropdown-divider"></div>
+                                
+                            </div>
+                 </li>
+                
+                <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industry <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="bfsi.html">Banking, Financial Service and Insurance</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="education.html">Education</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="govdef.html">Government, PSUs and Defence</a>
+                                <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="healthcare.html">Healthcare</a>
+                                <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="travelhospitality.html">Travel and Hospitality</a>
+                                <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="it.html">IT / ITeS</a>
+                                <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="manufacturing.html">Manufacturing, Energy and Utilities</a>
+                                <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="publishingsolutions.html">Publishing Solutions</a>
+                                <!-- <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="#">Education</a> -->
+                                
+                            </div>
+                 </li>
+                
+                <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="approach.html">Approach</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="about.html#ourteam">Team Netsoft</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="vision.html">Vision And Core Values</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="partners-and-associates.html">Partners And Associates</a>
+                            </div>
+                 </li>
+
+                <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Customer <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="customer-list.html">Customer List</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="testimonials.html">Testimonials</a>
+                                
+                            </div>
+                 </li>
+
+                </li>
+                 <li class="dropdown mx-3">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career <img src="static/img/Arrow_Down.png" alt="Down Arrow" ></a>
+                            <div class="dropdown-menu dropdown-menu-right top-23" aria-labelledby="userDropdown">
+                                
+                                <a class="dropdown-item" href="workculture.html">Work Culture</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="submit-resume.html">Submit your Resume</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="current-openings.html">Current Openings</a>
+                                
+                            </div>
+                 </li>
+                <li class="nav-item mx-3"> <a class="nav-link" href="partner.html">Partners</a> </li>
+                <li class="nav-item mx-3"><a class="btn header-btn-register" href="#" onclick="document.getElementById('showpopup').click();" >Request A Quote</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main-container">
+     <div class="slider" id="slider"  data-width="100">
+    <button class="control_next">&rarr;</button>
+     <button class="control_prev">&larr;</button>
+        <ul>
+            <li class="actslide">
+                <div class="slide" id="slider-1" >
+                    <div class="shadow">
+                        <div class="teaser">
+                        
+                            
+                            <h2>Empowering Your IT Infrastructure for Peak Performance</h2>
+                            
+                            
+                            
+                            
+                        </div> 
+                        
+                        
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="slide" id="slider-2" >
+                    <div class="shadow">
+                            <div class="teaser">
+                            <h2>Seamless Connectivity Solutions</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="slide" id="slider-3" >
+                    <div class="shadow">
+                                <div class="teaser">
+                            <h2>Code That Powers Your Vision</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+             <li>
+                <div class="slide" id="slider-4" >
+                    <div class="shadow">
+                                <div class="teaser">
+                            <h2>Next-Gen Network Solutions</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="slide" id="slider-5" >
+                    <div class="shadow">
+                                <div class="teaser">
+                            <h2>Your Vision, Our IT Expertise.</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="slide" id="slider-6" >
+                    <div class="shadow">
+                                <div class="teaser">
+                            <h2>Building Scalable Applications That Drive Results</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="slide" id="slider-7" >
+                    <div class="shadow">
+                                <div class="teaser">
+                            <h2>Empowering Innovation with <br/> Artificial Intelligence.</h2>
+                        </div> 
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="progress">
+            <div class="bar"></div>
+        </div>
+
+    </div>
+
+<header>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-5 competition-caption">
+                    <h1 class="mb-0">Netsoft<br/> The <span class="text-purple">Success Martix</span></h1><br/>
+                    <p class="text-desc">NETSOFT has the expertise businesses need to manage large-scale infrastructure implementations, migrations, consolidations, and technology refreshes. By applying industry best practices and proven, proprietary methodologies, we deliver high-quality, cost-effective solutions that support business strategy.</p>
+                    <div class="btn-community">
+                        <a href="about.html" class="btn btn-purple">About Netsoft</a>
+                        <a href="index.html#" class="btn btn-light-purple" onclick="document.getElementById('showpopup').click();">Request Quote</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 top-172 right-align">
+                   <img src="static/img/community_banner.svg" class="img-92" alt="Community Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="competition-section">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-5 top-50" style="margin-top: 50px;">
+            <h1 class="mb-0">Our Services</h1>
+            <p class="text-desc">
+                Netsoft Consulting Services is a fast-paced, evolving and possesses a keen entrepreneurial spirit. We are customer-focused, and value quality, integrity, initiative, caring, believe in teamwork, agility, and innovation. Also believe in inventing the next wave of cutting edge of business solutions.
+            </p>
+            <div class="bottom-50">
+                <a href="infrastructureManagement.html" class="btn-purple">See More</a>
+            </div>
+        </div>
+        <div class="col-md-7" style="margin-top: 50px;">
+                            <div class="solution-container">
+                                
+                                <a href="infrastructureManagement.html" id=""  use_case_target="1">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <img src="static/img/services1.png" />
+                                        </div>
+                                        <div class="solution-title font-14">Infrastructure <br>Management</div>
+                                    </div>
+                                </a>
+
+                                 <a href="ITConsulting.html" id=""  use_case_target="1">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <img src="static/img/servicex.png" />
+                                        </div>
+                                        <div class="solution-title font-14">IT <br>Consulting</div>
+                                    </div>
+                                </a>
+
+                                  <a href="#" id=""  use_case_target="1">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <img src="static/img/ser.png" />
+                                        </div>
+                                        <div class="solution-title font-14">Application <br>Development</div>
+                                    </div>
+                                </a>
+
+                                 <a href="#" id=""  use_case_target="1">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <img src="static/img/servicexx.png" />
+                                        </div>
+                                        <div class="solution-title font-14">Artificial <br> Intelligence</div>
+                                    </div>
+                                </a>
+                            </div>
+        </div>
+    </div>
+</div> <!-- container end -->
+</section> <!-- competition-section end -->
+
+<section class="ai-marketplace-section">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-5 top-50 left-50">
+            <h1 class="mb-0">Our Solutions</h1>
+            <p class="text-desc">
+                As solution providers, we analyse the client’s current setup, understand their requirement from the IT setup, try to address the current and future requirement issues and accordingly offer solutions.<br>With our solutions & service, we can help you to control costs, improve productivity and achieve greater height for your business.
+
+
+            </p>
+            <a href="unifiedCommunications.html" class="btn-purple">See More</a>
+        </div>
+        <div class="col-md-7 right-align">
+            <a href="unifiedCommunications.html"><img src="static/img/our-solutions.png" class="img-100" alt="error"></a>
+        </div>
+    </div>
+    <a name="contact_us"></a>
+</div>
+</section> <!-- ai-marketplace-section end -->
+<!-- Request quote form starts -->
+
+      <div class="center">
+         <input type="checkbox" id="show">
+         <label for="show" class="show-btn" id="showpopup" style="display: none;">View Form</label>
+         <div class="container1">
+            <label for="show" class="close-btn fas fa-times" title="close"></label>
+           
+            <form action="#">
+               <div class="col-md-12 modal-title-container">
+                            <h4 class="text-center modal-title" id="use_case_modalTitle">Drop Your Message</h4>
+                            <div class=" text-center" id="use_case_caption"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Name</label></div>
+                                        <input type="text" id="#" name="#" class="form-control mb-3" required maxlength="100">
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Email</label></div>
+                                        <input type="email" id="#" name="#" class="form-control" required maxlength="100">
+                                    </div>
+                                </div>
+
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Phone</label></div>
+                                        <input type="number" id="#" name="#" class="form-control mb-3" required maxlength="100">
+                                    </div>
+
+                                    
+                                    
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Company Name</label></div>
+                                        <input type="text" id="#" name="#" class="form-control mb-3" required maxlength="100">
+                                    </div>
+                                </div>
+
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Subject</label></div>
+                                        <input type="text" id="#" name="#" class="form-control" required maxlength="100">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class=""><label class="required">Message</label></div>
+                                        <textarea id="#" name="#" cols="2" rows="1" class="form-control" required></textarea>
+                                    </div>
+                                </div>
+
+
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                        
+                                        <button class="btn btn-purple">Submit Message</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+            </form>
+         </div>
+      </div>
+ <!-- Request Qute form end -->
+<!-- <div class="footer-top-margin"></div> -->
+<section class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <h4 class="footer-h4">Have a question or need a custom quote?</h4>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-4 footer-bottom-20">
+            <p class="footer-para">
+                Feel free to contact us, if you’d like a custom quote for a bulk order, have a special request, or any other questions not answered yet? Please contact us
+
+            </p>
+
+        </div>
+        <div class="col-md-8">
+                    <div class="">
+                                
+                                <a href="tel:91-11-45330000" id=""  use_case_target="1">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <!-- <img src="static/img/services1.png" /> -->
+                                        </div>
+                                        <div class="solution-title font-14">18001028363 / 18001028363</div>
+                                    </div>
+                                </a>
+
+                                <a href="#" id=""  use_case_target="1" onclick="document.getElementById('showpopup').click();">
+                                
+                                    <div class="solution-button solution-button-width">
+                                        <div class="solution-img">
+                                          <!-- <img src="static/img/services1.png" /> -->
+                                        </div>
+                                        <div class="solution-title font-14">Request A Quote</div>
+                                    </div>
+                                </a>
+                    </div>
+        </div>
+    </div> <!-- row end -->
+    <hr class="hr-line"/>
+    <div class="row">
+        <div class="col-md-4 text-left">
+            <img class="footer-netsoft-logo" src="logo/netsoft-nobg.png" alt="NetSoft logo"/>
+            <p class="footer-para">
+                Since 2002, Netsoft has gained unmatched business and technological expertise. We hold an excellent track record of pre-sales and post-sales service with all our clients, which motivate us to perform even better.
+            </p>
+        </div>
+        <div class="col-md-8">
+            <div class="pull-right">
+                <div class="footer-column">
+                    <div class="footer-heading">Services</div>
+                    <ul class="footer-list">
+                        <li><a href="infrastructureManagement.html">Infrastructure Management</a></li>
+                        <li><a href="ITConsulting.html">IT Consulting</a></li>
+                        <li><a id="footer_ai_solution" href="artificialIntelligence.html">Artificial Intelligence</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-heading">Company</div>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#ourteam">Netsoft Team</a></li>
+                        <li><a href="#" onclick="document.getElementById('showpopup').click();">Query</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                <div class="footer-column text-left">
+                    <div class="footer-heading">Careers</div>
+                    <ul class="footer-list">
+                        <li><a href="workculture.html">Work Culture</a></li>
+                        <li><a href="submit-resume.html">Submit Resume</a></li>
+                        <li><a href="current-openings.html">Current Openings</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column footer-last-column">
+                    <div class="footer-heading">Contact Us</div>
+                    <ul class="footer-list">
+                        <li>
+                            <script>
+                                var name = "info";
+                                var domain = "netsoftit.net";
+                                document.write('<a href="mailto:'+ name +'@'+ domain + '">Email Us</a>');
+                            </script>
+                        </li>
+                        <li>+91-11-45330000  +18001028363</li>
+                        <li class="line-height-20">
+                            22,1st Floor,<br>Community Centre, Block D, South Delhi,New Delhi,<br> Delhi 110065
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="fade-text top-32">Copyright &copy; netsoftit 2022</p>
+        </div>
+        <div class="col-md-6 right-align top-32">
+            <div class="social-network">
+                <a href="https://www.facebook.com/netsoftit/" title="Facebook" target="_blank" rel="noopener noreferrer"><img src="static/img/FB.svg" alt="Facebook"></a>
+                <a href="https://twitter.com/netsoftit" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="static/img/twitter.svg" alt="Twitter"></a>
+                <a href="http://t.me/netsoftit" title="Telegram" target="_blank" rel="noopener noreferrer"><img src="static/img/telegram.svg" alt="Telegram"></a>
+                <a href="https://www.instagram.com/netsoftit/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="static/img/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/company/netsoftit" title="Linkedin" target="_blank" rel="noopener noreferrer"><img src="static/img/linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://www.youtube.com/channel/netsoftit" title="Youtube" target="_blank" rel="noopener noreferrer"><img src="static/img/youtube.svg" alt="Youtube"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+</body>
+<script src="static/js/common/jquery.min.js"></script>
+<script src="static/js/script9595.js"></script>
+<script type="text/javascript" src="static/js/common/common875b.js"></script>
+<script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<script src="static/js/footer.js"></script>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+  startSlider(document.getElementById("slider"), 30); // Slide container ID, SlideShow interval
+
+  function startSlider(obj, timer) {
+    const id = `#${obj.id}`;
+    const slides = obj.querySelectorAll("ul li");
+    const slideCount = slides.length;
+    const slideWidth = parseInt(obj.getAttribute("data-width"), 10);
+    const sliderUlWidth = (slideCount + 1) * slideWidth;
+    const time = 2;
+    let isPause = false; // false for auto slideshow
+    let percentTime = 0;
+    let tick;
+
+    const progressBar = obj.querySelector(".progress .bar");
+
+    function startProgressbar() {
+      resetProgressbar();
+      percentTime = 0;
+      tick = setInterval(interval, timer);
+    }
+
+    function interval() {
+      if (!isPause) {
+        percentTime += 1 / (time + 0.1);
+        progressBar.style.width = percentTime + "%";
+        if (percentTime >= 100) {
+          moveRight();
+          startProgressbar();
+        }
+      }
+    }
+
+    function resetProgressbar() {
+      progressBar.style.width = "0%";
+      clearInterval(tick);
+    }
+
+    function startSlide() {
+      const ul = obj.querySelector("ul");
+      const lastChild = ul.lastElementChild;
+      ul.insertBefore(lastChild, ul.firstElementChild);
+      ul.style.width = `${sliderUlWidth}vw`;
+      ul.style.marginLeft = `-${slideWidth}vw`;
+    }
+
+    if (slideCount > 1) {
+      startSlide();
+      startProgressbar();
+    } else {
+      document.querySelector(`${id} button.control_prev`).style.display = "none";
+      document.querySelector(`${id} button.control_next`).style.display = "none";
+    }
+
+    function moveLeft() {
+      const ul = obj.querySelector("ul");
+      ul.style.transition = "1s";
+      ul.style.transform = `translateX(${slideWidth}vw)`;
+
+      setTimeout(() => {
+        const lastChild = ul.lastElementChild;
+        ul.insertBefore(lastChild, ul.firstElementChild);
+        ul.style.transition = "none";
+        ul.style.transform = "translateX(0vw)";
+      }, 1000);
+    }
+
+    function moveRight() {
+      const ul = obj.querySelector("ul");
+      if (slideCount > 2) {
+        ul.style.transition = "1s";
+        ul.style.transform = `translateX(-${slideWidth}vw)`;
+
+        setTimeout(() => {
+          const firstChild = ul.firstElementChild;
+          ul.appendChild(firstChild);
+          ul.style.transition = "none";
+          ul.style.transform = "translateX(0vw)";
+        }, 1000);
+      } else {
+        moveRightForTwoSlides();
+      }
+    }
+
+    function moveRightForTwoSlides() {
+      const ul = obj.querySelector("ul");
+      const firstChild = ul.firstElementChild;
+      ul.appendChild(firstChild);
+      ul.style.transition = "none";
+      ul.style.transform = "translateX(100vw)";
+
+      setTimeout(() => {
+        ul.style.transition = "1s";
+        ul.style.transform = "translateX(0vw)";
+      }, 100);
+
+      setTimeout(() => {
+        ul.style.transition = "none";
+        ul.style.transform = "translateX(0vw)";
+      }, 1000);
+    }
+
+    const prevButton = document.querySelector(`${id} button.control_prev`);
+    const nextButton = document.querySelector(`${id} button.control_next`);
+    const progressDiv = document.querySelector(`${id} .progress`);
+
+    prevButton.addEventListener("click", () => {
+      moveLeft();
+      startProgressbar();
+    });
+
+    nextButton.addEventListener("click", () => {
+      moveRight();
+      startProgressbar();
+    });
+
+    progressDiv.addEventListener("click", () => {
+      isPause = !isPause;
+    });
+  }
+});
+
+</script>
+
+</div>
+
