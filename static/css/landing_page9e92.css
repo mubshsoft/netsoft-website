@@ -117,8 +117,8 @@ header {
     width: 100%;
 }
 .competition-caption {
-    margin-top: 78px;
-    padding-top: 14%;
+/*     margin-top: 78px; */
+    padding-top: 100px;
 }
 .weight-100 {
     font-weight: 100;
@@ -177,7 +177,7 @@ header {
     width:92%;
 }
 .top-172{
-    margin-top:172px;
+    margin-top:102px;
 }
 .competition-section{
     background: #f6f7f9;
